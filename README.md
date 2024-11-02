@@ -9,7 +9,7 @@ bun install
 mkdir drizzle
 export DB_FILE_NAME=file:drizzle/tasks.db
 sqlite3 $DB_FILE_NAME < schema.sql
-call npx drizzle-kit pull 
+npx drizzle-kit pull 
 cp drizzle/relations.ts src/db/relations.ts
 cp drizzle/schema.ts src/db/schema.ts
 ```
