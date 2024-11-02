@@ -6,6 +6,7 @@ todo example app using Hono and Drizzle
 
 ```sh
 bun install
+mkdir drizzle
 export DB_FILE_NAME=file:drizzle/tasks.db
 sqlite3 $DB_FILE_NAME < schema.sql
 call npx drizzle-kit pull 
