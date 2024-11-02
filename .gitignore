@@ -1,0 +1,8 @@
+# deps
+node_modules/
+bun.lockb
+drizzle
+update.bat
+src/db
+*.bat
+*.sh

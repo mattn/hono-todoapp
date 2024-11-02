@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS "Task" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "text" TEXT,
+    "completed" BOOLEAN DEFAULT "0"
+);
