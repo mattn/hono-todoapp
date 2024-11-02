@@ -1,4 +1,4 @@
-# my-app
+# hono-todoapp
 
 todo example app using Hono and Drizzle
 
