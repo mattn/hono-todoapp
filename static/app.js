@@ -57,7 +57,7 @@ const App = () => html`
           (async () => {
             const state = store();
             const task = await ky.post('/tasks', {
-              json: { text: state.inputText }
+              json: { text: state.inputText, completed: 0 }
             }).json();
             store({
               tasks: [...state.tasks, task],
